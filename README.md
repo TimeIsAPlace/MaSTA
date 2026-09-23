@@ -25,8 +25,6 @@ MaSTA 汇集两个中文口吃语音合成研究实现：基于 CosyVoice2 的�
 python -m http.server 8000 --bind 127.0.0.1
 ```
 
-Demo 已通过 GitHub Pages 发布。修改页面或音频并推送后，在 [Actions](https://github.com/TimeIsAPlace/MaSTA/actions/workflows/pages.yml) 中手动运行 `Deploy demo` 更新在线版本，详见[发布指南](docs/PUBLISHING.md)。
-
 ## 目录
 
 ```text
