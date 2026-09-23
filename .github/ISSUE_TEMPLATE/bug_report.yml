@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible problem
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - CosyVoice2-Stutter
+        - MaskGCT-Stutter
+        - Demo / repository tooling
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction and expected behavior
+      description: Include the command and fictional input. Remove private recordings and credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and traceback
+      description: OS, Python, GPU/CUDA, package versions, checkpoint source and sanitized traceback.
+    validations:
+      required: true

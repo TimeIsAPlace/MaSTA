@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Please cite the repository version you used, and the upstream models and datasets."
+type: software
+title: "MaSTA: Controllable stutter speech synthesis"
+authors:
+  - name: "MaSTA contributors"
+abstract: "Research implementations of CosyVoice2 instruction tuning and MaskGCT semantic infilling for controllable Chinese stutter speech synthesis."

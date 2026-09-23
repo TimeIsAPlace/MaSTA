@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>口吃语音合成 · Listening Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><a href="#" class="brand">Speech<span>Study</span></a><span>语音合成研究 / AUDIO DEMO</span><a href="#samples">音频样本 ↗</a></header>
+  <main>
+    <section class="intro">
+      <div class="eyebrow">STUTTERING SPEECH SYNTHESIS</div>
+      <h1>口吃语音合成</h1>
+      <p class="subtitle">从真实语音到可控合成，聆听口吃事件的细微差异。</p>
+      <div class="intro-bottom"><p>AS70 与 AISHELL-1：原始语音与两种口吃合成结果</p><span>20 组样本 <b> / </b> 3 种音频来源 <b> / </b> 5 类事件</span></div>
+    </section>
+    <section class="legend-section" aria-labelledby="legend-title">
+      <div class="section-label"><span>01 / ANNOTATION</span><h2 id="legend-title">五类口吃标记</h2></div>
+      <div class="legend">
+        <div class="legend-item b"><code>/b</code><h3>阻塞</h3><p>发音受阻，出现停顿或启动困难。</p><div class="example">北<mark>/b</mark>京</div></div>
+        <div class="legend-item p"><code>/p</code><h3>延长</h3><p>一个字中的语音成分被持续拉长。</p><div class="example">时<mark>/p</mark>候</div></div>
+        <div class="legend-item i"><code>/i</code><h3>插入</h3><p>插入“嗯”“呃”等语气成分。</p><div class="example">嗯<mark>/i</mark>怎么说</div></div>
+        <div class="legend-item r"><code>/r</code><h3>声音重复</h3><p>字的起始音或音节发生重复。</p><div class="example">导<mark>/r</mark>航</div></div>
+        <div class="legend-item d"><code>[…]</code><h3>字词重复</h3><p>方括号中记录重复说出的文字。</p><div class="example">但是<mark>[但是]</mark></div></div>
+      </div>
+    </section>
+    <section id="samples" class="samples-section" aria-labelledby="sample-title">
+      <div class="section-label"><span>02 / LISTENING SAMPLES</span><h2 id="sample-title">语音对照</h2></div>
+      <div class="filterbar"><div id="filters" role="group" aria-label="数据集"><button type="button" data-dataset="as70" aria-pressed="true">AS70</button><button type="button" data-dataset="aishell1" aria-pressed="false">AISHELL-1-Stutter</button></div><span id="count" aria-live="polite"></span></div>
+      <div class="column-head"><span>文本与标记</span><span><span id="reference-label">Ground Truth</span><small id="reference-description">原始口吃语音</small></span><span>CosyVoice2 <small>合成语音</small></span><span>MaskGCT <small>合成语音</small></span></div>
+      <div id="sample-list"></div>
+    </section>
+    <footer><span>STUTTERING SPEECH SYNTHESIS</span><p>原始语音 · CosyVoice2 · MaskGCT · <a href="AUDIO_SOURCES.md">音频来源与使用说明</a></p></footer>
+  </main>
+  <script src="data.js"></script><script src="app.js"></script>
+</body>
+</html>

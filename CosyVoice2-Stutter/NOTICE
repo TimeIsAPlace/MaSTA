@@ -1,0 +1,22 @@
+CosyVoice2-Stutter
+
+This is an independent research derivative of FunAudioLLM/CosyVoice.
+Upstream: https://github.com/FunAudioLLM/CosyVoice
+Upstream code license: Apache License, Version 2.0.
+Original per-file copyright and attribution notices are retained.
+
+This distribution was assembled from a local research snapshot, not a verified
+checkout of a particular upstream commit. Local changes predate this release;
+their complete upstream diff cannot be reconstructed from the available files.
+
+Research additions/adaptations include normal/stutter control tokens, annotated
+speech recipes, fine-grained instruction tuning, instruct tuning, and batch synthesis.
+Release changes include documentation, environment and source checks, explicit
+dependencies, import-path setup, portable defaults, and strict prompt exclusion.
+
+Matcha-TTS source is redistributed under its own MIT License.
+See THIRD_PARTY_NOTICES.md and third_party/Matcha-TTS/LICENSE.
+Third-party notices do not change the license of those third-party components.
+
+No upstream endorsement, pretrained weights, training data, private transcripts,
+or personal voice recordings are included.

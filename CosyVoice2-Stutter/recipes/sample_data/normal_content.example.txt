@@ -1,0 +1,2 @@
+train/wav/S_DEMO/normal001.wav	今天天气很好。
+train/wav/S_DEMO/normal002.wav	我想去公园。

@@ -1,0 +1,47 @@
+# Generated data and private corpora
+/data/
+/datasets/
+/outputs/
+/exp/
+/tensorboard/
+/logs/
+/aishell_stutter.txt
+# Model downloads and checkpoints
+/CosyVoice2-*/
+/pretrained_models/
+/models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+*.parquet
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.mp4
+*.zip
+*.tar
+*.gz
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

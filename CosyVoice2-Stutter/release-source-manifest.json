@@ -1,0 +1,555 @@
+{
+  "description": "SHA-256 of input source files before publication edits; source_path preserves the original layout; path identifies the current release location.",
+  "files": [
+    {
+      "path": "README.md",
+      "source_sha256": "66436370172c2830ed98aa643b31898c65e16eee14ade68f00828d21fae602e0",
+      "source_path": "README.md"
+    },
+    {
+      "path": "requirements.txt",
+      "source_sha256": "f3079b207ad6d554e4dfce6c01399d10b52d8aeade1c4e63c76c3a1163bc3d26",
+      "source_path": "requirements.txt"
+    },
+    {
+      "path": "cosyvoice/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "cosyvoice/__init__.py"
+    },
+    {
+      "path": "cosyvoice/bin/average_model.py",
+      "source_sha256": "f362de1a5bd087cc451c0fd3f5f2490c14ed0e127f533ba4249705463ca373d6",
+      "source_path": "cosyvoice/bin/average_model.py"
+    },
+    {
+      "path": "cosyvoice/bin/export_jit.py",
+      "source_sha256": "7e44d6827c269f49b51c1fb8c5f424048a19f2b350d11485f36dfcf58965ee85",
+      "source_path": "cosyvoice/bin/export_jit.py"
+    },
+    {
+      "path": "cosyvoice/bin/export_onnx.py",
+      "source_sha256": "8ff4fef25eda1e7b664eda3f1c5f1ad14b5572bf68ca0185b48e96b910df74c2",
+      "source_path": "cosyvoice/bin/export_onnx.py"
+    },
+    {
+      "path": "cosyvoice/bin/fine_tuning.py",
+      "source_sha256": "f0af8524b2c5a957dc95221476990970a7566e0115d0013dae08434c0242aae1",
+      "source_path": "cosyvoice/bin/fine_tuning.py"
+    },
+    {
+      "path": "cosyvoice/bin/train.py",
+      "source_sha256": "664eb4891150686b27446e1087caf66c0f3e4be552f835a43b0fbc13ce9aa757",
+      "source_path": "cosyvoice/bin/train.py"
+    },
+    {
+      "path": "cosyvoice/cli/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "cosyvoice/cli/__init__.py"
+    },
+    {
+      "path": "cosyvoice/cli/cosyvoice.py",
+      "source_sha256": "4b2a605f129d172cd031286a14a591396c2e8ed0bf53258acc7445525fdaa65b",
+      "source_path": "cosyvoice/cli/cosyvoice.py"
+    },
+    {
+      "path": "cosyvoice/cli/frontend.py",
+      "source_sha256": "8d3dcb5880d76346f053f19344eac48adcff2aca70687293aadf4e1f33fadac3",
+      "source_path": "cosyvoice/cli/frontend.py"
+    },
+    {
+      "path": "cosyvoice/cli/model.py",
+      "source_sha256": "421ba52dd956505667668e0aec7fdcbcd85d733b52725b2d595bc32bcbb53ef9",
+      "source_path": "cosyvoice/cli/model.py"
+    },
+    {
+      "path": "cosyvoice/dataset/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "cosyvoice/dataset/__init__.py"
+    },
+    {
+      "path": "cosyvoice/dataset/dataset.py",
+      "source_sha256": "b9fb7857690dc0fb61e599bf5ef22337802ab87cf8313d06b0ad08440ad186a5",
+      "source_path": "cosyvoice/dataset/dataset.py"
+    },
+    {
+      "path": "cosyvoice/dataset/processor.py",
+      "source_sha256": "27c8009a8da606dfd7b541fa28b34faba6d8bd9ff586a4c72b4738b2ad0aaa9a",
+      "source_path": "cosyvoice/dataset/processor.py"
+    },
+    {
+      "path": "cosyvoice/flow/decoder.py",
+      "source_sha256": "ef5eceb9db7f63ddda1d5bca6bfa6b28b8ea11656c4b1f9c109d28f656cbbf29",
+      "source_path": "cosyvoice/flow/decoder.py"
+    },
+    {
+      "path": "cosyvoice/flow/flow_matching.py",
+      "source_sha256": "d871c37176a673bde2a1bcd7c1f1e5083afdde246d05fe5d5203fcc9a23cf98e",
+      "source_path": "cosyvoice/flow/flow_matching.py"
+    },
+    {
+      "path": "cosyvoice/flow/flow.py",
+      "source_sha256": "bb61c86b4cef2d000f397e7d99ca9096372046d433efbdbdfc29d5d5321e2111",
+      "source_path": "cosyvoice/flow/flow.py"
+    },
+    {
+      "path": "cosyvoice/flow/length_regulator.py",
+      "source_sha256": "b2bbdabda04850df0c934562df95b237ca20fa7e8fe89d04d9b827a99d67411b",
+      "source_path": "cosyvoice/flow/length_regulator.py"
+    },
+    {
+      "path": "cosyvoice/flow/DiT/dit.py",
+      "source_sha256": "5d14492e3ed68f5446853b0defd447bc401b12803b027a7b9584a3f3527633bf",
+      "source_path": "cosyvoice/flow/DiT/dit.py"
+    },
+    {
+      "path": "cosyvoice/flow/DiT/modules.py",
+      "source_sha256": "8c97f2af995e9ce06288be35b5119b243bb6a1aec687ef23032f20314f3f18cf",
+      "source_path": "cosyvoice/flow/DiT/modules.py"
+    },
+    {
+      "path": "cosyvoice/hifigan/discriminator.py",
+      "source_sha256": "3db5b1b5584c600c996ee8c53ea021370a8ad9c62e3f5a28d5cf25f03ab9f9cf",
+      "source_path": "cosyvoice/hifigan/discriminator.py"
+    },
+    {
+      "path": "cosyvoice/hifigan/f0_predictor.py",
+      "source_sha256": "494630d73dad5e667c5042dae41acb673c4511b28c17e8ce343bbffa2fa3d512",
+      "source_path": "cosyvoice/hifigan/f0_predictor.py"
+    },
+    {
+      "path": "cosyvoice/hifigan/generator.py",
+      "source_sha256": "dd1c9f1ab5024bbcb4cec089b46e80844dbd00b5faf717a1906e166987200806",
+      "source_path": "cosyvoice/hifigan/generator.py"
+    },
+    {
+      "path": "cosyvoice/hifigan/hifigan.py",
+      "source_sha256": "e900da2f5e7ec302db9a6ea6d2b71990eabd8823e07e59419b7d8c52df7dc0d6",
+      "source_path": "cosyvoice/hifigan/hifigan.py"
+    },
+    {
+      "path": "cosyvoice/llm/llm.py",
+      "source_sha256": "bf5bfa669348f5b73ee31beaf18c886f5d5d463f2b9f5a588e7ed236a307da1e",
+      "source_path": "cosyvoice/llm/llm.py"
+    },
+    {
+      "path": "cosyvoice/tokenizer/tokenizer.py",
+      "source_sha256": "704c1909406af7de7aecf65f277ed30a104b15aae81a495cdc74878eaecc995c",
+      "source_path": "cosyvoice/tokenizer/tokenizer.py"
+    },
+    {
+      "path": "cosyvoice/tokenizer/assets/multilingual_zh_ja_yue_char_del.tiktoken",
+      "source_sha256": "747979631e813193436aabcff7c1c235d37de8097b71c563ec8b63b7a515c718",
+      "source_path": "cosyvoice/tokenizer/assets/multilingual_zh_ja_yue_char_del.tiktoken"
+    },
+    {
+      "path": "cosyvoice/transformer/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "cosyvoice/transformer/__init__.py"
+    },
+    {
+      "path": "cosyvoice/transformer/activation.py",
+      "source_sha256": "a4a96caea9f7b05111286de5ea760bdfdf9c4e53448f53420857dc04a50440c2",
+      "source_path": "cosyvoice/transformer/activation.py"
+    },
+    {
+      "path": "cosyvoice/transformer/attention.py",
+      "source_sha256": "41d269b2d5e3a3952c0a538f46480aff8570767eb88e80452f367436cef628b1",
+      "source_path": "cosyvoice/transformer/attention.py"
+    },
+    {
+      "path": "cosyvoice/transformer/convolution.py",
+      "source_sha256": "bc248837af9458d7fdfa620a072d5f9e5a2851c420e1275fdda34c294e3a75c7",
+      "source_path": "cosyvoice/transformer/convolution.py"
+    },
+    {
+      "path": "cosyvoice/transformer/decoder_layer.py",
+      "source_sha256": "b95662ab72ec6b0b0f50c3a15fbecf16facb786d323b4aca1d063b9c21c0d64e",
+      "source_path": "cosyvoice/transformer/decoder_layer.py"
+    },
+    {
+      "path": "cosyvoice/transformer/decoder.py",
+      "source_sha256": "db042c727e0e653ac924733b1fb15e69792ffd80c9d3cf62248374555d58a1cc",
+      "source_path": "cosyvoice/transformer/decoder.py"
+    },
+    {
+      "path": "cosyvoice/transformer/embedding.py",
+      "source_sha256": "b50c30be5c66c39c95e0db1015814c545fcd062a936c0ea7ad4c01508b2595dc",
+      "source_path": "cosyvoice/transformer/embedding.py"
+    },
+    {
+      "path": "cosyvoice/transformer/encoder_layer.py",
+      "source_sha256": "1920582be2c9b7cf7835e7b539118ec1eb9da8f2c711c6257f8598b3792951b9",
+      "source_path": "cosyvoice/transformer/encoder_layer.py"
+    },
+    {
+      "path": "cosyvoice/transformer/encoder.py",
+      "source_sha256": "27f9d7499720372fbe6774d090b89ff063c7ecf88f93a4d75b27bb1adb2918a5",
+      "source_path": "cosyvoice/transformer/encoder.py"
+    },
+    {
+      "path": "cosyvoice/transformer/label_smoothing_loss.py",
+      "source_sha256": "db8804cf1c20e1afbf6c33de4836589b1947d881797d02d507c2a8a8d4f40fdd",
+      "source_path": "cosyvoice/transformer/label_smoothing_loss.py"
+    },
+    {
+      "path": "cosyvoice/transformer/positionwise_feed_forward.py",
+      "source_sha256": "6e8038e3bcc8ca086ddca508fb9b9d40bf3ab98bebabcf5c94935d032329d0f8",
+      "source_path": "cosyvoice/transformer/positionwise_feed_forward.py"
+    },
+    {
+      "path": "cosyvoice/transformer/subsampling.py",
+      "source_sha256": "31fc0347a851abc1205dfd4cf68099c0c416589c3e99a07b250e8630cece19d0",
+      "source_path": "cosyvoice/transformer/subsampling.py"
+    },
+    {
+      "path": "cosyvoice/transformer/upsample_encoder.py",
+      "source_sha256": "fe1d2c689fac401c0ef38a0639921b1cd2849fe1d10596980e480f88dc06a682",
+      "source_path": "cosyvoice/transformer/upsample_encoder.py"
+    },
+    {
+      "path": "cosyvoice/utils/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "cosyvoice/utils/__init__.py"
+    },
+    {
+      "path": "cosyvoice/utils/class_utils.py",
+      "source_sha256": "f81a5509b5b4aecdb226b45ab43fa81d4cecb1bd88e48cd3bcda353891697b11",
+      "source_path": "cosyvoice/utils/class_utils.py"
+    },
+    {
+      "path": "cosyvoice/utils/common.py",
+      "source_sha256": "69aab9fe9cc80173f72a608e1b632611174f8c8e5032e4d9ce24fef18c8574bd",
+      "source_path": "cosyvoice/utils/common.py"
+    },
+    {
+      "path": "cosyvoice/utils/executor.py",
+      "source_sha256": "37b7f34fea19f6839484d5550e418cef214d452f12f7ca3f718f56824ac40a6c",
+      "source_path": "cosyvoice/utils/executor.py"
+    },
+    {
+      "path": "cosyvoice/utils/file_utils.py",
+      "source_sha256": "aeb9792d4a828f51e42339139cc97753ea931ab246df2f5f5d2703043fb5db72",
+      "source_path": "cosyvoice/utils/file_utils.py"
+    },
+    {
+      "path": "cosyvoice/utils/frontend_utils.py",
+      "source_sha256": "0d0ca94e0cf519e2d17f72cd1dcab6cb07aea0de48e7e792826362284ea18d30",
+      "source_path": "cosyvoice/utils/frontend_utils.py"
+    },
+    {
+      "path": "cosyvoice/utils/losses.py",
+      "source_sha256": "5cd0f7fd78ce5622c19bb9116516b705699e48c08f217b9b8aa1127f2bf95c10",
+      "source_path": "cosyvoice/utils/losses.py"
+    },
+    {
+      "path": "cosyvoice/utils/mask.py",
+      "source_sha256": "852c6e4b14201a238ab076396db599c157b2ee5a5a2aacf0f277ddce8c648976",
+      "source_path": "cosyvoice/utils/mask.py"
+    },
+    {
+      "path": "cosyvoice/utils/onnx.py",
+      "source_sha256": "1e4951180be1b8a606999e854db49aafa641cd8e3a9944122d3cc23df00a2157",
+      "source_path": "cosyvoice/utils/onnx.py"
+    },
+    {
+      "path": "cosyvoice/utils/scheduler.py",
+      "source_sha256": "9447eab84fcb71eaf6546db35156b49fe53182f244744a1dc93ebab28fa1ea34",
+      "source_path": "cosyvoice/utils/scheduler.py"
+    },
+    {
+      "path": "cosyvoice/utils/train_utils.py",
+      "source_sha256": "ab8b999fc3ef805b8e2f8981a395f25ffbcd781acde325b91e809a5e7cc7b425",
+      "source_path": "cosyvoice/utils/train_utils.py"
+    },
+    {
+      "path": "cosyvoice/vllm/cosyvoice2.py",
+      "source_sha256": "96810ffb9b8b649bcacccf9685bbe91ba0efaf7e4ae7594d9961af86a701f033",
+      "source_path": "cosyvoice/vllm/cosyvoice2.py"
+    },
+    {
+      "path": "configs/cosyvoice2.yaml",
+      "source_sha256": "584888f678a36fba31063b652d5574d757a9fa86948c45d0b2ea9d77d6482139",
+      "source_path": "examples/libritts/cosyvoice2/conf/cosyvoice2.yaml"
+    },
+    {
+      "path": "configs/deepspeed_stage2.json",
+      "source_sha256": "561a5f09e319fc124174a4b3169dca5acee2efd3717c55bd226bf13b0d0be18b",
+      "source_path": "examples/libritts/cosyvoice2/conf/ds_stage2.json"
+    },
+    {
+      "path": "recipes/cosyvoice2/synthesize_dataset.py",
+      "source_sha256": "74f4bef8ff698ff6c68d9f8d501cd8d3f7924909238fdabcdb765dc9f2fd4272",
+      "source_path": "examples/stutter_cosyvoice2/resynthesize_train.py"
+    },
+    {
+      "path": "recipes/cosyvoice2/train_fine_grained.sh",
+      "source_sha256": "8948215d635304ea530e8134a7e7b87369f879a651447651f51d840d1ef13d38",
+      "source_path": "examples/stutter_cosyvoice2/run_finetune.sh"
+    },
+    {
+      "path": "recipes/cosyvoice2/train_instruct.sh",
+      "source_sha256": "7c6d82ca806ddd2c3aa7802494a751bcac0de3901ec568fc81d4ef85bc6ef75c",
+      "source_path": "examples/stutter_cosyvoice2/run_instruct_finetune.sh"
+    },
+    {
+      "path": "recipes/cosyvoice2/synthesize_dataset.sh",
+      "source_sha256": "2b5a85b419d039f141864463e66c2f31e0223ca3605cb28e2ffe082bbe3afccc",
+      "source_path": "examples/stutter_cosyvoice2/run_resynthesize.sh"
+    },
+    {
+      "path": "recipes/cosyvoice2/synthesize_aishell.sh",
+      "source_sha256": "57bd5a9e2350885c67337f8969b9601801ecea574f7de1fc65036aa534a7658b",
+      "source_path": "examples/stutter_cosyvoice2/run_synthesize_aishell_stutter.sh"
+    },
+    {
+      "path": "recipes/cosyvoice2/synthesize_aishell.py",
+      "source_sha256": "ddb39b42134f95961c4f31de1a2e644b7fa1762c959b5e64816a2060a73c4818",
+      "source_path": "examples/stutter_cosyvoice2/synthesize_aishell_stutter.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/LICENSE",
+      "source_sha256": "9d9f7aed1de7ca6e41bdadc9fed1c4c6bc312c4858fcbaecc808237d8a784343",
+      "source_path": "third_party/Matcha-TTS/LICENSE"
+    },
+    {
+      "path": "third_party/Matcha-TTS/README.md",
+      "source_sha256": "65d0a6c31d11fac27c2f850a1f1844980f60a4ebaa3d11352b5f0f26c048ee6a",
+      "source_path": "third_party/Matcha-TTS/README.md"
+    },
+    {
+      "path": "third_party/Matcha-TTS/requirements.txt",
+      "source_sha256": "8518e7970206ebdb821009cceb3491c7c30f7fc3155f053eb1cffe4ea55032bc",
+      "source_path": "third_party/Matcha-TTS/requirements.txt"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "third_party/Matcha-TTS/matcha/__init__.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/app.py",
+      "source_sha256": "608bd69dabc4cfc0819a7e5d1ea844292328ebe49623bd0defe8ef7f304814fc",
+      "source_path": "third_party/Matcha-TTS/matcha/app.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/cli.py",
+      "source_sha256": "a11786c2b9743722eb6c83d5be6571485171f980cf52d4e163a15104c834ae71",
+      "source_path": "third_party/Matcha-TTS/matcha/cli.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/train.py",
+      "source_sha256": "85c8a6041ae3ec53a5011835bdf489848ea973d4b8f1cf6e1307cfd390996d4d",
+      "source_path": "third_party/Matcha-TTS/matcha/train.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/VERSION",
+      "source_sha256": "0acbd95df9de9826ed472624188c7df69f25f48525f19ff050e2a7c92c46616f",
+      "source_path": "third_party/Matcha-TTS/matcha/VERSION"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/data/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "third_party/Matcha-TTS/matcha/data/__init__.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/data/text_mel_datamodule.py",
+      "source_sha256": "68bd2c43039e13009c09c02403cd3325575cd2458881d89c827ad70f6c6b04de",
+      "source_path": "third_party/Matcha-TTS/matcha/data/text_mel_datamodule.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/data/components/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "third_party/Matcha-TTS/matcha/data/components/__init__.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/hifigan/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "third_party/Matcha-TTS/matcha/hifigan/__init__.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/hifigan/config.py",
+      "source_sha256": "551481dc216671f9d4d694c809ec7ce10c3625d820eba504101ed84d34d867fb",
+      "source_path": "third_party/Matcha-TTS/matcha/hifigan/config.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/hifigan/denoiser.py",
+      "source_sha256": "c6262c468651c65875992145e245fc44e9440f63fccd39109b1ea2808d63b6b7",
+      "source_path": "third_party/Matcha-TTS/matcha/hifigan/denoiser.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/hifigan/env.py",
+      "source_sha256": "7239c6976447280e1a7be97a94d3e1ffb9ed3ef71f164053b48e0473c8b330b3",
+      "source_path": "third_party/Matcha-TTS/matcha/hifigan/env.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/hifigan/LICENSE",
+      "source_sha256": "81c7c0dd7b07ba988d26ed313df9410b3b4a169a764227762defa7b30c7661ef",
+      "source_path": "third_party/Matcha-TTS/matcha/hifigan/LICENSE"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/hifigan/meldataset.py",
+      "source_sha256": "fe429fc565af4b7307afa7ceaf15d8bdfa4cdafa83093491508d4c69ccb29207",
+      "source_path": "third_party/Matcha-TTS/matcha/hifigan/meldataset.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/hifigan/models.py",
+      "source_sha256": "718040a5c65a9848d2fe7abc28bbd041d741abd928705a5ba4f65e484e72b936",
+      "source_path": "third_party/Matcha-TTS/matcha/hifigan/models.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/hifigan/xutils.py",
+      "source_sha256": "99178ad0e2e6e35ecb77b4f83a25d1d87ed5e04ad6dfb218cb371eac3b19ed7a",
+      "source_path": "third_party/Matcha-TTS/matcha/hifigan/xutils.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/models/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "third_party/Matcha-TTS/matcha/models/__init__.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/models/baselightningmodule.py",
+      "source_sha256": "63ecdd87e0a43d1e2575b8a0a311890f5491d02815621f4d993410e2cc7b89a9",
+      "source_path": "third_party/Matcha-TTS/matcha/models/baselightningmodule.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/models/matcha_tts.py",
+      "source_sha256": "80547ea341e51fb2e858a734d70804ac0b700ec934dbabbaf2b97dcff4d0ddea",
+      "source_path": "third_party/Matcha-TTS/matcha/models/matcha_tts.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/models/components/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "third_party/Matcha-TTS/matcha/models/components/__init__.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/models/components/decoder.py",
+      "source_sha256": "7752746280b63734ab725a6f0782eaa1c8a956a415613b9a6903e55afd27900d",
+      "source_path": "third_party/Matcha-TTS/matcha/models/components/decoder.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/models/components/flow_matching.py",
+      "source_sha256": "f818ecaf4844140a0bb83580dd1f22b4a1190d659345fc2ee2c6b96752bfa86f",
+      "source_path": "third_party/Matcha-TTS/matcha/models/components/flow_matching.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/models/components/text_encoder.py",
+      "source_sha256": "ccf66c5d2f237a3fef4417e80f79179947aede15aaf30ca633eaaf077d8e3e9e",
+      "source_path": "third_party/Matcha-TTS/matcha/models/components/text_encoder.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/models/components/transformer.py",
+      "source_sha256": "ff7bc1b80efd583b596bf05551b33892d2471ec747b24660c3006b0c8001f7dd",
+      "source_path": "third_party/Matcha-TTS/matcha/models/components/transformer.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/onnx/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "third_party/Matcha-TTS/matcha/onnx/__init__.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/onnx/export.py",
+      "source_sha256": "f01abe41f7204b1c0466d63d2055960ca03d904c5cef56a742b97b1e06e00b3a",
+      "source_path": "third_party/Matcha-TTS/matcha/onnx/export.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/onnx/infer.py",
+      "source_sha256": "6b28e00a47b0d996b640cb31ef6e8ddd41a5aad083e2336117f4f66022019399",
+      "source_path": "third_party/Matcha-TTS/matcha/onnx/infer.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/text/__init__.py",
+      "source_sha256": "af2187f8119bee6e7da039e691968a2a7239372691d26361ed7460a2ec454daa",
+      "source_path": "third_party/Matcha-TTS/matcha/text/__init__.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/text/cleaners.py",
+      "source_sha256": "8f2828cfe52a299ac374e2e6dcee54f46021fa098598f613457a68a5d4e91791",
+      "source_path": "third_party/Matcha-TTS/matcha/text/cleaners.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/text/numbers.py",
+      "source_sha256": "799626100dfd36b592294263cc85b57019b251eb2c2c51c55fdf452f8ce32a00",
+      "source_path": "third_party/Matcha-TTS/matcha/text/numbers.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/text/symbols.py",
+      "source_sha256": "94cfc22e5e1191543be29e22d9afeff79303d4899fe1b83b9b4233340ea0972e",
+      "source_path": "third_party/Matcha-TTS/matcha/text/symbols.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/__init__.py",
+      "source_sha256": "29b47cc8d46d1f2e512ebd1b65887bea208b7d54723ebff0b7498c28e2fd7d6b",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/__init__.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/audio.py",
+      "source_sha256": "fe0d11ea7bb71c48c96e483fb0e3145f9d2e295218390712fc378cb3160b5580",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/audio.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/generate_data_statistics.py",
+      "source_sha256": "cc16efcc3dffef079cbe5f0a20874269eb1a3627e869e32f2f129d4056031d18",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/generate_data_statistics.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/instantiators.py",
+      "source_sha256": "aedbbb98e97d87f0a4b060d4f226eecadccc7f6abc8e5229bca828fcf8f41b18",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/instantiators.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/logging_utils.py",
+      "source_sha256": "c605c956615c8d5b6298ee650803a1bfb614608a5a5d9a81921b7887bdabe3a5",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/logging_utils.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/model.py",
+      "source_sha256": "4f5ef65c5aa0eb9e92d8c59bfa8d9a8529f6906ed2ba6bd6cff07b486bfb859e",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/model.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/pylogger.py",
+      "source_sha256": "c7e40a30fb228db52574d2112fdba61c8c14991778c1dbf4325bf68a90621fb4",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/pylogger.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/rich_utils.py",
+      "source_sha256": "c5210d1584a7cd0fc774b767d2dec507ace77db59046399625e3fcf45fe82d84",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/rich_utils.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/utils.py",
+      "source_sha256": "ea39edeebee5fb5e1dec7e9bdaa4342fcbf8f3078dacaa41f9c5312fa1aef05d",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/utils.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/monotonic_align/__init__.py",
+      "source_sha256": "37afbb604cdfdecba7c7719815eaea137ded5bbc6c83ad50f8c9b9d27b6b9cba",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/monotonic_align/__init__.py"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/monotonic_align/core.pyx",
+      "source_sha256": "8ff7f6823a41b1c95796de03a0f0122f5564e5944e581414658d0732ded29a9f",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/monotonic_align/core.pyx"
+    },
+    {
+      "path": "third_party/Matcha-TTS/matcha/utils/monotonic_align/setup.py",
+      "source_sha256": "0df0feecf6d69988fa9694c09e2844919b20f41600dd9fb4aa2c5f9c43dbeb20",
+      "source_path": "third_party/Matcha-TTS/matcha/utils/monotonic_align/setup.py"
+    },
+    {
+      "path": "tools/extract_embedding.py",
+      "source_sha256": "f853925ee23ae2f5dd3489fc5cee4beaf4a4322b43e1a8bf2bb0415f6826aaf0",
+      "source_path": "tools/extract_embedding.py"
+    },
+    {
+      "path": "tools/extract_speech_token.py",
+      "source_sha256": "3304ea1ec091338976500f01a29504b590183447763e482453f01aec7641763b",
+      "source_path": "tools/extract_speech_token.py"
+    },
+    {
+      "path": "tools/make_parquet_list.py",
+      "source_sha256": "f91f197ab60bd1bcff526ad12666fdb8757fe37522e16d549e13538fdd7a8de4",
+      "source_path": "tools/make_parquet_list.py"
+    }
+  ]
+}
