@@ -2,7 +2,7 @@
 
 MaSTA 汇集两个中文口吃语音合成研究实现：基于 CosyVoice2 的指令微调，以及基于 MaskGCT 的语义 token 区域填充。项目提供训练、数据准备、合成入口和音频对照演示。
 
-[English](README.en.md) · [Demo 页面与预览方法](demo_page/README.md) · [Demo HTML](demo_page/index.html) · [发布指南](docs/PUBLISHING.md)
+[English](README.en.md) · [在线 Demo](https://timeisaplace.github.io/MaSTA/) · [本地预览说明](demo_page/README.md) · [发布指南](docs/PUBLISHING.md)
 
 ## 两个模型项目
 
@@ -17,15 +17,15 @@ MaSTA 汇集两个中文口吃语音合成研究实现：基于 CosyVoice2 的�
 
 ## 音频 Demo
 
-[demo_page](demo_page/README.md) 提供 AS70、AISHELL-1 共 20 组对照，每组包含参考语音、CosyVoice2 和 MaskGCT 合成语音。AISHELL-1 的参考是原始流利语音。
+[在线收听 Demo](https://timeisaplace.github.io/MaSTA/)：AS70、AISHELL-1 共 20 组对照，每组包含参考语音、CosyVoice2 和 MaskGCT 合成语音。AISHELL-1 的参考是原始流利语音。可直接在浏览器中收听，无需安装模型。
 
-在仓库根目录执行以下命令，然后打开 <http://localhost:8000/demo_page/>：
+如需本地预览，在仓库根目录执行以下命令，然后打开 <http://localhost:8000/demo_page/>：
 
 ```bash
 python -m http.server 8000 --bind 127.0.0.1
 ```
 
-GitHub 文件浏览器不会直接运行 HTML。上传后可按[发布指南](docs/PUBLISHING.md)启用 GitHub Pages；手动运行 `Deploy demo` 后，Actions 会显示真实在线地址，可将其加入仓库 About 的 Website 栏。
+Demo 已通过 GitHub Pages 发布。修改页面或音频并推送后，在 [Actions](https://github.com/TimeIsAPlace/MaSTA/actions/workflows/pages.yml) 中手动运行 `Deploy demo` 更新在线版本，详见[发布指南](docs/PUBLISHING.md)。
 
 ## 目录
 

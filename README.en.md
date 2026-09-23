@@ -1,6 +1,6 @@
 # MaSTA · Controllable stutter speech synthesis
 
-[中文](README.md) · [Listening demo](demo_page/README.md) · [Publishing](docs/PUBLISHING.md)
+[中文](README.md) · [Live demo](https://timeisaplace.github.io/MaSTA/) · [Local preview](demo_page/README.md) · [Publishing](docs/PUBLISHING.md)
 
 This research repository contains two implementations:
 
@@ -9,6 +9,6 @@ This research repository contains two implementations:
 
 Use separate Python environments: their PyTorch and Transformers versions differ. Follow each model's README from its own directory. Full training/inference targets Linux, Python 3.10 and NVIDIA CUDA GPUs. Training data and model weights are not included; base weights alone do not implement the fine-tuned stutter controls.
 
-The static demo contains 20 groups and 60 audio files. From this repository root run `python -m http.server 8000 --bind 127.0.0.1`, then visit <http://localhost:8000/demo_page/>. To publish the page, follow the [GitHub Pages guide](docs/PUBLISHING.md). Review the [audio source notes](demo_page/AUDIO_SOURCES.md) before public distribution.
+The [live listening demo](https://timeisaplace.github.io/MaSTA/) contains 20 groups and 60 audio files, playable directly in your browser without installing a model. For a local preview, run `python -m http.server 8000 --bind 127.0.0.1` from this repository root, then visit <http://localhost:8000/demo_page/>. After pushing page or audio changes, manually run [Deploy demo](https://github.com/TimeIsAPlace/MaSTA/actions/workflows/pages.yml) to update the published site. See the [publishing guide](docs/PUBLISHING.md) and [audio source notes](demo_page/AUDIO_SOURCES.md).
 
 Run `python scripts/check_repository.py` for offline source checks and lightweight tests. These checks do not establish GPU compatibility, speech quality or benchmark reproducibility. See [validation](docs/VALIDATION.md), [contributing](CONTRIBUTING.md), [security](SECURITY.md), and the component-specific [licenses](LICENSE.md).
